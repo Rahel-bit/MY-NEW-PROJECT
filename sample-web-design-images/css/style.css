@@ -1,14 +1,18 @@
 *{
-	margin: 0 ;
+	margin: 0;
 	padding: 0;
 }
-body{
-	background-color:  #33bbff;
+.page-wrapper{
+	max-width: 1200px;
+	margin: auto;
+	background-color: #15d0dc;
+}
+
 	
 
-}
+
 .main-header{
-	background-color: #2d8659;
+	background-color: #008080;
 	height: 120px;
 
 }
@@ -19,17 +23,90 @@ body{
 	text-align: center;
 	font-family: sans-serif;
 
+
 }
 .container{
-	width: 80%;
+	width: 85%;
 	margin: auto;
-	overflow: hidden;
+	
 }
-.five-dogs{
-	margin-top: 40px;
-	text-align: center;
-	max-width: 100%;
+.section-1{
+	background-image: url(../images/banner-image-dogs.jpg);
+	height: 450px;
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin: 40px 0 10px;
 }
+
+
 .section-2{
 	display: flex;
+	background-color: blue;
+	/*justify-content: space-between;*/
+	height: 300px;
+
+}
+.part-1{
+	width: 32%;
+	background-color: #fff;
+	margin:1.66% 1%;;
+}
+.part-2{
+	width: 32%;
+	background-color: #fff;
+	margin:1.66% 1%;
+}
+.part-3{
+	width: 32%;
+	background-color: #fff;
+	margin:1.66% 1%;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-image: url(../images/image2-dog.jpg);
+
+
+}
+.section-3{
+	display: flex;
+	
+	justify-content: space-between;
+}
+
+.images-1{
+	background-image: url(../images/image3-dog.jpg);
+	width: 50%; 
+	height: 700px;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin: 15px  15px 80px 0;
+	border: 20px solid red;
+
+}
+.images-2{
+	background-image: url(../images/showcade.jpg);
+	width: 50%; 
+	height: 700px;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin: 15px 0 80px 15px;
+	border: 20px solid red;
+
+
+
+}
+.main-footer{
+	background-color: #008080;
+	height: 120px;
+
+}
+.footer{
+	font-size: 25px;
+	color: #fff;
+	padding-top: 28px;
+	text-align: center;
+	font-family: sans-serif;
 }
