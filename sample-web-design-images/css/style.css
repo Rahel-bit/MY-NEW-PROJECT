@@ -1,11 +1,14 @@
 *{
 	margin: 0;
 	padding: 0;
+	margin-top: 30px;
+
 }
 .page-wrapper{
 	max-width: 1200px;
 	margin: auto;
 	background-color: #15d0dc;
+	
 }
 
 	
@@ -19,9 +22,11 @@
 .header{
 	font-size: 25px;
 	color: #fff;
-	padding-top: 28px;
+	padding-top: 8px;
 	text-align: center;
 	font-family: sans-serif;
+	overflow: hidden;
+	letter-spacing: .3px;
 
 
 }
@@ -50,12 +55,42 @@
 .part-1{
 	width: 32%;
 	background-color: #fff;
-	margin:1.66% 1%;;
+	margin:1.66% 1%;
+	text-align: center;
+	padding-top: 10px;
+	overflow: hidden;
+	color: rgba(55,44,44,1);
 }
 .part-2{
 	width: 32%;
 	background-color: #fff;
 	margin:1.66% 1%;
+	text-align: center;
+	padding-top: 10px;
+	overflow: hidden;
+	color: #d3d3d3;
+
+
+}
+.part-1 h1{
+	color: blue;
+	font-size: 2em;
+	
+	text-transform: uppercase;
+	letter-spacing: .3em;
+
+}
+.part-2 h1{
+	color: blue;
+	font-size: 2em;
+	
+	text-transform: uppercase;
+
+}
+
+
+p{
+	font-size: 1.2em;
 }
 .part-3{
 	width: 32%;
@@ -77,7 +112,7 @@
 .images-1{
 	background-image: url(../images/image3-dog.jpg);
 	width: 50%; 
-	height: 700px;
+	height: 600px;
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -88,7 +123,7 @@
 .images-2{
 	background-image: url(../images/showcade.jpg);
 	width: 50%; 
-	height: 700px;
+	height: 600px;
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -106,7 +141,34 @@
 .footer{
 	font-size: 25px;
 	color: #fff;
-	padding-top: 28px;
+	padding-top: 8px;
 	text-align: center;
 	font-family: sans-serif;
 }
+
+/*@media(max-width: 600px){
+	.footer{
+		width: 100%;
+		float: none;
+	}
+	.images-1{
+		width: 100%;
+		float: none;
+	}
+	.images-2{
+		width: 100%;
+		float: none;
+	}
+	.part-1{
+		width: 100%;
+		float: none;
+	}
+	.part-2{
+		width: 100%;
+		float: none;
+	}
+	.part-3{
+		width: 100%;
+		float: none;
+	}
+}*/
